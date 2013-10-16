@@ -175,6 +175,7 @@
                                 <property name="use_underline">True</property>
                                 <property name="use_stock">False</property>
                                 <signal name="activate" handler="OnFileTranslationClose"/>
+                                <accelerator key="c" modifiers="GDK_SHIFT_MASK | GDK_MOD1_MASK" signal="activate" />
                                 <child internal-child="image">
                                   <widget class="GtkImage" id="fileTranslationCloseImage">
                                     <property name="visible">True</property>
